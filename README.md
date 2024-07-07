@@ -11,10 +11,10 @@ A fast web scraper using Beautiful Soup, concurrency and Windows PowerShell for 
 ### 1. Web Scraper
 
 Run the [`runner.ps1`](runner.ps1) file, on Windows PowerShell, with the following command-line arguments.
-- number of posts to _process_ (_process_ meaning to save the post (if all the data is available) or not save a post (due to various reasons))
-- maximum number of workers (during concurrency)
-- width of the resized image to be saved
-- height of the resized image to be saved
+- Number of posts to _process_ (_process_ meaning to save the post (if all the data is available) or not save a post (due to various reasons))
+- Maximum number of workers (during concurrency)
+- Width of the resized image to be saved
+- Height of the resized image to be saved
 - Beautiful Soup parser
 
 For example, running `.\runner.ps1 50 10 128 128 lxml` processes the first 50 posts (which are not already processed) concurrently, with a maximum of 10 workers. Beautiful Soup uses the "lxml" parser to find the required data from the page, and the image is resized to 128x128 and saved in the "images" folder.
