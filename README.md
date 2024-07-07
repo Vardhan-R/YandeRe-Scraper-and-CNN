@@ -1,5 +1,5 @@
 # [yande.re](https://yande.re/post) Scraper and CNN
-A fast web scraper (**350+ images per minute**) using Beautiful Soup, concurrency and Windows PowerShell for [yande.re](https://yande.re/post). And a CNN which classifies the images based on their rating (**75%** accuracy).
+A fast web scraper (**350+ images per minute**) using Beautiful Soup, concurrency and Windows PowerShell for [yande.re](https://yande.re/post). And a CNN, using [TensorFlow](https://www.tensorflow.org/), which classifies the images based on their rating (**75%** accuracy).
 
 ## Installation and Setup
 1. Download the repository.
